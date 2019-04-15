@@ -5,9 +5,10 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+function IndexPage() {
+  const [greeting] = useState(
+    greetingOptions[Math.floor(Math.random() * greetingOptions.length)]
+  )
     <h1>Hi people</h1>
     <SocialMedia />
     <p>Welcome to your new Gatsby site.</p>

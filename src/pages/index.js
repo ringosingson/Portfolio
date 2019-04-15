@@ -58,7 +58,7 @@ function IndexPage() {
         </div>
         <h2 className="sm-heading">
           Front-end Developer, Love playing guitar & passionate about new
-          technologies, new ideas and new ways of thinking
+          technologies, new ideas and new ways of thinking.
         </h2>
         <SocialMedia />
       </div>

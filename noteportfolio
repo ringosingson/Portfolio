@@ -1,0 +1,8 @@
+Socialmedia folder component is added
+
+install styled-component
+--npm install --save gatsby-plugin-styled-components styled-components babel-plugin-styled-components
+
+add in the gatsby-config.js
+
+--'gatsby-plugin-styled-components'

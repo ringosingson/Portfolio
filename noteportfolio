@@ -6,3 +6,7 @@ install styled-component
 add in the gatsby-config.js
 
 --'gatsby-plugin-styled-components'
+
+install 
+npm install --save gatsby-plugin-google-fonts
+npm install --save react-pose

@@ -1,11 +1,11 @@
 import React, { useState } from "react"
-import { Link } from "gatsby"
+//import { Link } from "gatsby"
 import posed from "react-pose"
 import SocialMedia from "../components/SocialMedia"
 import styled from "styled-components"
 import { greetingOptions } from "../data/configOptions"
 import Layout from "../components/layout"
-import Image from "../components/image"
+//import Image from "../components/image"
 import ScrambleText from "../components/ScrambleText"
 import SEO from "../components/seo"
 
@@ -26,7 +26,7 @@ const MainInfoText = styled(posed.div(fadeEnterConfig))`
   font-weight: bold;
   font-size: 12vh;
   text-shadow: 0 0 0;
-  padding-bottom: 20px;
+  padding-bottom: 32px;
 `
 
 const Greeting = styled(posed.div(fadeEnterConfig))`
@@ -56,11 +56,12 @@ function IndexPage() {
             />
           </MainInfoText>
         </div>
+        <h2 className="sm-heading">
+          Front-end Developer, Love playing guitar & passionate about new
+          technologies, new ideas and new ways of thinking
+        </h2>
         <SocialMedia />
       </div>
-      <Image />
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }} />
-      <Link to="/page-2/">Go to page 2</Link>
     </Layout>
   )
 }

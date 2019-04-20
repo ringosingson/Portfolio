@@ -1,0 +1,63 @@
+#contact {
+  background: #181d23;
+  clip-path: polygon(0 0, 20% 100px, 100% 0, 100% 100%, 0 100%);
+  color: #fafafa;
+
+  width: 80%;
+
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  z-index: 1;
+}
+
+#contact .container {
+  width: 70%;
+  max-width: 1200px;
+  padding: 25vh 0;
+}
+
+#contact .container .heading-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+#contact .heading-wrapper .social a {
+  color: #fafafa;
+}
+
+#contact .heading-wrapper .social a:hover {
+  color: #f300b4;
+}
+
+.heading-wrapper .heading .title {
+  font-size: 3rem;
+  line-height: 2.4rem;
+}
+
+.heading-wrapper .heading .separator {
+  background: #f300b4;
+  width: 150px;
+  height: 2px;
+  margin: 1rem 0;
+}
+
+.heading-wrapper .heading .subtitle {
+  font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 1149px) {
+  #contact .social a {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 649px) {
+  #contact {
+    clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 0 100%);
+    padding: 0;
+  }
+}

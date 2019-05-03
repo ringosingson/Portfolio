@@ -3,7 +3,7 @@ import React from "react"
 import List from "./List"
 import Item from "./Item"
 
-function SocialMedia(props) {
+function SocialMedia() {
   return (
     <List>
       <Item>

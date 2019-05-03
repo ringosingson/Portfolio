@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { graphql } from "gatsby"
 import posed from "react-pose"
-import SocialMedia from "../components/SocialMedia"
+import SocialMedia from "../components/SocialMedia/Index"
 import styled from "styled-components"
 import { greetingOptions } from "../data/configOptions"
 import Layout from "../components/layout"

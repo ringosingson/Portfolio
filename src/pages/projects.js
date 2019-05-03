@@ -29,7 +29,7 @@ const Header = styled.div`
   }
 
   @media only screen and (max-width: 554px) {
-    margin-top: 2.7em;
+    margin-top: 2.9em;
     font-size: 4vh;
   }
 `

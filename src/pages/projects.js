@@ -23,6 +23,15 @@ const Header = styled.div`
   font-size: 8vh;
   font-weight: bold;
   font-family: "Lato", "Cabin", "Ubuntu", sans-serif;
+
+  @media only screen and (max-width: 976px) {
+    margin-top: 2em;
+  }
+
+  @media only screen and (max-width: 554px) {
+    margin-top: 2.7em;
+    font-size: 4vh;
+  }
 `
 
 class ProjectsPage extends React.Component {

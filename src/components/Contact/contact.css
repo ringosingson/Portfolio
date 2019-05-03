@@ -3,7 +3,7 @@
   clip-path: polygon(0 0, 20% 100px, 100% 0, 100% 100%, 0 100%);
   color: #fafafa;
 
-  width: 80%;
+  width: 108%;
 
   padding: 1rem 3rem;
   display: flex;
@@ -34,7 +34,7 @@
 }
 
 .heading-wrapper .heading .title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 2.4rem;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .heading-wrapper .heading .subtitle {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 1149px) {
@@ -57,7 +57,14 @@
 
 @media only screen and (max-width: 649px) {
   #contact {
-    clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0%, 20% 5%, 100% 0, 100% 100%, 0 100%);
     padding: 0;
+    margin-left: -10px;
+  }
+  .subtitle {
+    letter-spacing: 1px;
+    line-height: 28px;
+
+    margin-left: -22px;
   }
 }

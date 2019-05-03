@@ -29,12 +29,21 @@ const MainInfoText = styled(posed.div(fadeEnterConfig))`
   text-shadow: 0 0 0;
   padding-bottom: 32px;
   color: rgb(179, 58, 58);
+
+  @media only screen and (max-width: 670px) {
+    font-size: 5vh;
+  }
 `
 
 const Greeting = styled(posed.div(fadeEnterConfig))`
   font-size: 5vh;
   margin-top: 16%;
   padding-bottom: 40px;
+
+  @media only screen and (max-width: 670px) {
+    font-size: 3vh;
+    margin-top: 80px;
+  }
 `
 
 function IndexPage({ data }) {

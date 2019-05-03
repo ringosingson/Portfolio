@@ -12,13 +12,13 @@ const Contact = props => {
               reach me..
             </p>
             <p className="separator" />
-            <p className="subtitle">
+            <div className="subtitle">
               Call me : +917703969660
               <br />
-              <span className="mail">Mail me : ringosingon@live.com</span>
+              <div className="mail">Mail me : ringosingon@live.com</div>
               <br />
-              <span className="address">Current Address : New Delhi</span>
-            </p>
+              <div className="address">Current Address : New Delhi</div>
+            </div>
           </div>
         </div>
       </div>

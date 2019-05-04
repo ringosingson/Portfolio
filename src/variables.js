@@ -1,3 +1,3 @@
 export const mainColour = "#3498db"
 
-export const textColour = "#525f7f"
+export const textColour = "#c70597 " //"#525f7f"

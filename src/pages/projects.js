@@ -30,7 +30,8 @@ const Header = styled.div`
 
   @media only screen and (max-width: 554px) {
     margin-top: 3em;
-    font-size: 4vh;
+    font-size: 3vh;
+    margin-left: -3em;
   }
 `
 

@@ -94,4 +94,36 @@ export const projectsList = [
       },
     ],
   },
+  {
+    name: "HooksNews",
+    desc: "Clone of hackernews using react hooks",
+    color: "#9CCDA1",
+    imgSource: "/img/projects/project4.png",
+    techStack: [
+      { name: "React", icon: "devicons devicons-atom", color: "#3DAEFF" },
+      {
+        name: "JavaScript",
+        icon: "devicons devicons-javascript",
+        color: "#0062A8",
+      },
+
+      {
+        name: "Firebase",
+        icon: "devicons devicons-codeigniter",
+        color: "#EE8407",
+      },
+    ],
+    actionLinks: [
+      {
+        name: "View on Web",
+        icon: "monitor",
+        url: "https://hooksnewss.firebaseapp.com/new/1",
+      },
+      {
+        name: "View on Github",
+        icon: "github",
+        url: "https://github.com/ringosingson/hooksnews",
+      },
+    ],
+  },
 ]

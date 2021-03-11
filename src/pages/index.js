@@ -66,7 +66,7 @@ function IndexPage({ data }) {
           <div>
             <MainInfoText initialPose="enter" pose="normal">
               <ScrambleText
-                text="Ringo Singson."
+                text="Angela I love you."
                 scramble="!<>-_\\/[]{}—=+*^?#_abiwxevpi"
                 options={{ duration: 250, speed: 15 }}
               />
